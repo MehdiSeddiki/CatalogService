@@ -1,0 +1,5 @@
+C:\Users\MSDK\source\repos\CatalogService\Database\bin\Debug\Database.dacpac
+C:\Users\MSDK\source\repos\CatalogService\Database\bin\Debug\Database.dll
+C:\Users\MSDK\source\repos\CatalogService\Database\bin\Debug\Database.pdb
+C:\Users\MSDK\source\repos\CatalogService\Database\obj\Debug\Database.dll
+C:\Users\MSDK\source\repos\CatalogService\Database\obj\Debug\Database.pdb

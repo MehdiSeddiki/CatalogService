@@ -1,0 +1,46 @@
+syntax = "proto3";
+
+option csharp_namespace = "CatalogService";
+
+package greet;
+
+// The greeting service definition.
+service Greeter {
+
+  rpc CreateCatalogItem(item) returns(item);
+  rpc GetItemById(itemId) returns(item);
+  rpc RemoveCatalogItem(itemId) returns(deletedResponse);
+  rpc UpdateCatalogItem(item) returns(item);
+}
+
+// The request message containing the user's name.
+message HelloRequest {
+  string name = 1;
+}
+
+// The response message containing the greetings.
+message HelloReply {
+  string message = 1;
+}
+
+
+message item
+{
+    sint64 Id = 1;
+    string Description = 2;
+    string Name = 3;
+    double Price = 4;
+    string Picturefilename = 5;
+    sint64 BrandId = 6;
+    sint64 TypeId = 7;
+}
+
+message itemId
+{
+    sint64 Id = 1;
+}
+
+message deletedResponse
+{
+    bool isDeleted = 1;
+}
